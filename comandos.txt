@@ -1,0 +1,11 @@
+#Comandos para levantar un entornoVirtual en windows
+ python -m venv EntornoPython
+ source EntornoPython/Scripts/activate
+
+#instalar dependencias
+pip install -r requirements.txt
+
+#Comandos despues de levantar el entornoVirtual
+pip install opencv-python
+pip install imutils
+pip install opencv-contrib-python
